@@ -1,7 +1,9 @@
+function Home() {
+    return (
+        <div className="container mt-5 text-center">
+            <h1>Welcome to XYZ University Student Portal</h1>
+        </div>
+    );
+}
 
-const Home = () => {
-    return <div>Welcome to XYZ University Student Portal</div>;
-    
-  };
-  export default Home; 
-  
+export default Home;
